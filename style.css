@@ -1,4 +1,4 @@
-/* Basislayout */
+
 
 html, body {
     height: 100%;
@@ -91,4 +91,34 @@ margin:auto;
     
 }
 
+kolomLinks {
+  float: left;
+  width: 200px;
 
+}
+kolomRechts {
+  float: left;
+  width: calc(100% -200px, 40px);
+}
+
+/*
+ * Handige instellingen om problemen te voorkomen
+ */
+
+ * {
+   /* zorg dat de border meetelt bij de width en height van boxen */
+   box-sizing: border-box;
+   /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders is het soms 0) */
+   overflow: auto;
+   /* standaard marge 0 */
+   /* margin: 0px;*/
+ }
+
+ /*
+  * Handige instellingen om fouten te zoeken
+  */
+
+  * {
+    /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien */
+    /* border: 1px dotted black; */
+  }
