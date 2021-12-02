@@ -17,7 +17,7 @@
 
   * {
     /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien */
-    /* border: 1px dotted black; */
+    border: 1px dotted black;
     /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleuren */
     /* background-color: rgba (0,0,0,5%); */
   }
@@ -34,7 +34,7 @@ html, body {
 
 main {
     margin: 0 auto;
-    width: 700px;
+    width: 1000px;
     position: relative;
 }
 
@@ -113,12 +113,12 @@ margin:auto;
     
 }
 
-kolomLinks {
+.kolomLinks {
   float: left;
   width: 200px;
 
 }
-kolomRechts {
+.kolomRechts {
   float: left;
-  width: calc(100% -200px, 40px);
+  width: calc(100% - 200px );
 }
