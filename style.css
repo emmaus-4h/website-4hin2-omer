@@ -122,3 +122,8 @@ margin:auto;
   float: left;
   width: calc(100% - 200px );
 }
+
+.video {
+  width: 200px;
+  border: solid #ff0000 
+}
